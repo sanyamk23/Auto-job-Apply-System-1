@@ -1,6 +1,6 @@
 import requests
 import json
-from config import GROQ_API_KEY, GROQ_MODEL
+from app.backend.core.config import GROQ_API_KEY, GROQ_MODEL
 
 def call_groq(messages, max_tokens=2000):
     """Simple Groq API call"""

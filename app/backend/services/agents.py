@@ -1,5 +1,5 @@
-from groq_service import call_groq, parse_json_response
-from storage import storage
+from app.backend.services.groq_service import call_groq, parse_json_response
+from app.backend.storage.storage import storage
 import uuid
 
 class ContentAgent:
