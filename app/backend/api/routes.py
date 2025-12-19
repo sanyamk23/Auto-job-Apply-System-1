@@ -1,23 +1,12 @@
 from fastapi import APIRouter, HTTPException
-from pydantic import BaseModel
 
+from app.backend.models.content import ContentRequest
+from app.backend.models.chat import ChatRequest
 from app.backend.services.agents import agents
 from app.backend.core.config import PLATFORMS
 from app.backend.storage.storage import storage
 
 router = APIRouter()
-
-# ---------- Request Models ----------
-
-class ContentRequest(BaseModel):
-    platform: str
-    topic: str
-    audience: str
-    tone: str
-
-class ChatRequest(BaseModel):
-    session_id: str
-    message: str
 
 # ---------- Routes ----------
 
