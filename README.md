@@ -1,4 +1,4 @@
-# 🧠 AntiSocial - AI Content Brain for Social Media
+# AntiSocial - AI Content Brain for Social Media
 
 > **Transform your social media strategy with AI-powered content generation and conversational refinement**
 
@@ -6,27 +6,27 @@ AntiSocial is a production-ready social media content generation platform that u
 
 ## ✨ Key Features
 
-### 🤖 **Specialized AI Agents**
+### **Specialized AI Agents**
 - **LinkedIn Agent**: Professional content focused on career growth, industry insights, and business networking
 - **Instagram Agent**: Visual-first content with aesthetic appeal, tutorials, and lifestyle integration
 - **Twitter Agent**: Engagement-driven content including threads, discussions, and real-time commentary
 
-### 📊 **Multi-Blueprint Generation**
+### **Multi-Blueprint Generation**
 - **LinkedIn**: 3 different professional approaches per topic
 - **Instagram**: 4 content formats (Reels, Stories, Tutorials, Lifestyle)
 - **Twitter**: 5 engagement types (Threads, Quick takes, Discussions, Hot takes, Educational)
 
-### 💬 **Conversational Content Refinement**
+### **Conversational Content Refinement**
 - Chat with AI agents to modify content in real-time
 - Natural language requests: *"Make hashtags more professional"*, *"Change tone to casual"*
 - Iterative improvement without starting over
 
-### 📚 **Session Management**
+### **Session Management**
 - Persistent session storage with automatic saving
 - Session history sidebar for easy project switching
 - Resume work on any previous content generation
 
-### 🎯 **Platform Optimization**
+### **Platform Optimization**
 - Platform-specific hashtag strategies (8-12 for LinkedIn, 15-25 for Instagram, 5-8 for Twitter)
 - Content structure optimized for each platform's algorithm
 - Audience-targeted messaging and tone adaptation
@@ -67,7 +67,7 @@ python run.py
 - **Frontend**: http://localhost:8501
 - **API Documentation**: http://localhost:8000/docs
 
-## 📖 How to Use
+## How to Use
 
 ### Basic Content Generation
 
@@ -99,7 +99,7 @@ Use the chat interface to refine your content with natural language:
 - **Session Loading**: Click any previous session to resume work
 - **New Sessions**: Start fresh content generation anytime
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 ### Core Components
 
@@ -311,7 +311,7 @@ DEBUG=true
 - **Load Balancing**: Use nginx for multiple backend instances
 - **API Management**: Implement rate limiting and authentication
 
-## 🤝 Contributing
+### Contributing
 
 We welcome contributions! Areas for improvement:
 
@@ -325,7 +325,7 @@ We welcome contributions! Areas for improvement:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Groq**: Fast AI inference platform
 - **Streamlit**: Rapid web app development
